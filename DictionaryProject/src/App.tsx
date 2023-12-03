@@ -2,6 +2,7 @@ import './index.css';
 import ContainerApp from './components/ContainerApp';
 import Navbar from './components/Navbar';
 import ChengFont from './components/ChengFont';
+import SwitchMode from './components/SwitchMode';
 
 // interface DataWord {
 //   phonetic: string;
@@ -44,7 +45,7 @@ function App() {
   return (
     <ContainerApp>
       <Navbar>
-        <ChengFont />
+        <ChengFont /> | <SwitchMode />
       </Navbar>
     </ContainerApp>
   );

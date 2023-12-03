@@ -3,8 +3,8 @@ import logo from '/assets/images/logo.svg';
 
 const Navbar = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="bg-primary-light-100 w-[85%] h-[32px] px-2 flex my-[24px] items-center">
-      <img src={logo} alt="bookIcon" />
+    <div className="w-[85%] h-[32px] px-2 flex my-[24px] items-center gap-2">
+      <img className="h-[32px]" src={logo} alt="bookIcon" />
       {children}
     </div>
   );

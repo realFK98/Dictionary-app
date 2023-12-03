@@ -16,7 +16,9 @@ export default {
       'nature-200': '#FF5252',
     },
     fontFamily: {
-      display: ['Serif'],
+      display1: ['Sans-Serif'],
+      display2: ['Serif'],
+      display3: ['Mono'],
     },
     fontSize: {
       hl: ['64px', '77px'],

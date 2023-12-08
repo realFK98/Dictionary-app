@@ -16,9 +16,9 @@ export default {
       'nature-200': '#FF5252',
     },
     fontFamily: {
-      display1: ['Sans-Serif'],
-      display2: ['Serif'],
-      display3: ['Mono'],
+      SansSerif: ['Sans-Serif'],
+      Serif: ['Serif'],
+      Mono: ['Mono'],
     },
     fontSize: {
       hl: ['64px', '77px'],
@@ -28,5 +28,9 @@ export default {
       bs: ['14px', '17px'],
     },
   },
-  plugins: [],
+  // eslint-disable-next-line no-undef
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: ['cupcake', 'dark', 'emerald', 'light'],
+  },
 };

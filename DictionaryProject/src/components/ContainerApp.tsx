@@ -1,6 +1,14 @@
-const ContainerApp = ({ children }: { children: React.ReactNode }) => {
+const ContainerApp = ({
+  children,
+  font,
+}: {
+  children: React.ReactNode;
+  font: string;
+}) => {
   return (
-    <div className="bg-primary-light-300 h-screen w-screen font-display1  flex flex-col items-center">
+    <div
+      className={`min-h-screen max-h-full w-screen font-${font}  flex flex-col items-center `}
+    >
       {children}
     </div>
   );
